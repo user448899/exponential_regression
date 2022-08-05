@@ -84,11 +84,13 @@ def get_exp_reg(x, y):
 
     a = math.e**c
 
+    # Prints the formula.
+    print(f'y={a}*e^({b}*x)')
+
     def exp_reg_func(input_value):
         """
         Returns a y value for a given x value using the formula worked out in get_exp_reg().
         """
-        print(f'y={a}*e^({b}*x)')
         return a*(math.e**(b*input_value))
 
     return exp_reg_func
