@@ -1,6 +1,6 @@
 """
-The get_exp_reg(x, y) takes in two lists and will do exponential regression on them and return an exponential function
-of the form y=ae^(bx) that can be used to make predictions for a given x value.
+The get_exp_reg(x, y) function takes in two lists and will do exponential regression on them to return an exponential
+function of the form y=ae^(bx) that can be used to make predictions for a given x value.
 """
 
 import math
